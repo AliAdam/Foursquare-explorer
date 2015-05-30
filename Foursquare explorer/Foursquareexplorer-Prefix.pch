@@ -1,0 +1,15 @@
+//
+//  Foursquareexplorer-Prefix.pch
+//  Foursquare explorer
+//
+//  Created by Ali Adam on 5/29/15.
+//  Copyright (c) 2015 Ali Adam. All rights reserved.
+//
+
+#ifndef Foursquare_explorer_Foursquareexplorer_Prefix_pch
+#define Foursquare_explorer_Foursquareexplorer_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
