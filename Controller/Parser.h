@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Venues.h"
+#import "AppDelegate.h"
 
 @interface Parser : NSObject
-
+-(NSMutableArray*)getListOfVenues:(id) model latitude:(float )latitude longitude:(float)longitude radius:(float)radius ;
 @end

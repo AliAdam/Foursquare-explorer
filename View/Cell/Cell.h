@@ -8,22 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#import "AsyncImageView.h"
 @interface Cell : UITableViewCell
-@property (weak, nonatomic) IBOutlet UILabel *title;
-@property (weak, nonatomic) IBOutlet UILabel *Body;
-@property (weak, nonatomic) IBOutlet NSString *complainid;
-@property (weak, nonatomic) IBOutlet UILabel *name;
-@property (weak, nonatomic) IBOutlet UIButton *num_com;
-@property (weak, nonatomic) IBOutlet UIButton *num_like;
-@property (weak, nonatomic) IBOutlet UIButton *num_view;
-@property (weak, nonatomic) IBOutlet UIButton *created;
-@property (weak, nonatomic) IBOutlet UIImageView *complain_image;
-@property (weak, nonatomic) IBOutlet UIImageView *user_image;
-@property (weak, nonatomic) IBOutlet UIImageView *left_image;
-
-
-
-//////
-@property (weak, nonatomic) IBOutlet UIImageView *image;
 @property (weak, nonatomic) IBOutlet UILabel *Name;
+@property (weak, nonatomic) IBOutlet UILabel *Distance;
+@property (weak, nonatomic) IBOutlet UILabel *Address;
+
+@property (weak, nonatomic) IBOutlet AsyncImageView *image;
 @end

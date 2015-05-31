@@ -1,3 +1,4 @@
+
 //
 //  Venues.m
 //  Foursquare explorer
@@ -10,4 +11,13 @@
 
 @implementation Venues
 
+
+
+@dynamic name;
+@dynamic imgUrl;
+@dynamic venuesID;
+@dynamic Address;
+@dynamic distance;
+@dynamic latitude;
+@dynamic longitude;
 @end
