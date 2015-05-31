@@ -58,9 +58,9 @@
 		41BEA1061B1683EB00634CE6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		41BEA1081B1683FA00634CE6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		41BEA10A1B16840C00634CE6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		41C18CE91B1B695A00B0CE70 /* Foursquareexplorer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Foursquareexplorer-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		41DD66B31B18843C009CC49D /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
 		41DD66B41B18843C009CC49D /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
-		41DD66C21B18A8B8009CC49D /* Foursquareexplorer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Foursquareexplorer-Prefix.pch"; sourceTree = "<group>"; };
 		41DD66CF1B18CED8009CC49D /* Venues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venues.h; sourceTree = "<group>"; };
 		41DD66D01B18CED8009CC49D /* Venues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venues.m; sourceTree = "<group>"; };
 		41DD66D31B18CF2A009CC49D /* VeneusList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VeneusList.xcdatamodel; sourceTree = "<group>"; };
@@ -146,7 +146,7 @@
 			children = (
 				41BEA0C61B16372400634CE6 /* Info.plist */,
 				41BEA0C71B16372400634CE6 /* main.m */,
-				41DD66C21B18A8B8009CC49D /* Foursquareexplorer-Prefix.pch */,
+				41C18CE91B1B695A00B0CE70 /* Foursquareexplorer-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
